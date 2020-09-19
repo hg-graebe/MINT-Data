@@ -1,7 +1,7 @@
 <?php
 /**
  * User: Hans-Gert Gräbe
- * Date: 2020-09-16
+ * Date: 2020-09-19
  */
 
 include_once("layout.php");
@@ -19,9 +19,8 @@ BDSG (neu). </p>
 <p>Die Beispiele nutzen das <a href="http://getbootstrap.com" >Bootstrap
 Framework</a> sowie die <a href="http://www.easyrdf.org/" >EasyRdf PHP
 Bibliothek</a>.  Der Code ist in unserem git-Repo <a
-href="https://github.com/LeipzigData/MINT-Data"
->https://github.com/LeipzigData/MINT-Data</a> verfügbar. </p> 
-</div>
+href="https://github.com/hg-graebe/MINT-Data"
+>https://github.com/hg-graebe/MINT-Data</a> verfügbar. </p> </div>
 
 <div class="col-lg-3 col-sm-1"> </div> </div>
 
