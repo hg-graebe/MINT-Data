@@ -5,7 +5,7 @@ Eine Sammlung von öffentlich verfügbaren MINT-Daten (u.a aus dem Kontext von
 
 ## Was ist hier aktuell zu finden?
 
-Im Verzeichnis RDFData
+### Verzeichnis RDFData
 
 * Preisträger des MINT-Wettbewerbs des Mitmachfonds Sachsen aus den Jahren
   2019 und 2020 (auch wenn uns auf Anfrage hin mitgeteilt wurde, dass bei der
@@ -22,9 +22,7 @@ Im Verzeichnis RDFData
   Mitteldeutschland](http://www.leipzig-netz.de/index.php/MINT.Mitteldeutschland) gesammelt wurde.
 
 Im Verzeichnis workbench sind weiter aufzubereitende Daten und Werkzeuge zu
-finden, aktuell
-
-* MINTSchulen-Sachsen.csv - eine Liste von MINT-freundlichen Schule in Sachsen.
+finden.
 
 ### Datenmodell
 
@@ -59,9 +57,17 @@ Format, sondern das Format geo:asWKT aus der [geoSPARQL
 Ontologie](https://en.wikipedia.org/wiki/OGC_GeoSPARQL) verwendet, mit dem
 sich Paare zusammengehörender (lat, long) Daten samllen lassen.
 
-## Im Verzeichnis CSV-Data
+## Verzeichnis CSV-Data
 
 Dort liegen rohe Daten im CSV-Format, aus denen sich Teildaten mit einfacheren
 Werkzeugen extrahieren lassen. So wurde etwa die uns interessierenden
 Datensätze (gleich Zeilen einer CSV-Datei) für Sachsen und Leipzig mit einem
 einfachen "grep" aus den verfügbaren größeren Datenbeständen extrahiert. 
+
+## Verzeichnis web
+
+Der Quellcode einer prototypischen Website, auf der - als proof of concept -
+einzelne Datensätze (textuell) visualisiert werden. Diese Seite ist derzeit -
+ebenso prototypisch - unter
+<http://www.leipzig-netz.de/~graebe/MINT-Kataloge/> ausgerollt.
+
