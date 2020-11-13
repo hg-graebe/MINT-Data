@@ -1,7 +1,7 @@
 # MINT-Data
 
 Eine Sammlung von öffentlich verfügbaren MINT-Daten (u.a aus dem Kontext von
-["MINT - Zukunft schaffen"](https://mintzukunftschaffen.de/)) und
+["MINT - Zukunft schaffen"](https://mintzukunftschaffen.de/)).
 
 ## Was ist hier aktuell zu finden?
 
@@ -26,7 +26,7 @@ finden, aktuell
 
 * MINTSchulen-Sachsen.csv - eine Liste von MINT-freundlichen Schule in Sachsen.
 
-## Datenmodell
+### Datenmodell
 
 Offene Daten leben davon, dass mit öffentlichen Mitteln zusammengetragene und
 aktualisierte Grunddaten von Akteuren angereichert werden.  Dies sind im Fall
@@ -57,4 +57,11 @@ einem solchen Prozess mehrere Geokoordinaten zur selben Adresse vor.  Im
 Leipzig-Data-Projekt wird deshalb für Geokoordinaten nicht das (lat, long)
 Format, sondern das Format geo:asWKT aus der [geoSPARQL
 Ontologie](https://en.wikipedia.org/wiki/OGC_GeoSPARQL) verwendet, mit dem
-sich Paare zusammengehörender (lat, long) Daten samllen lassen. 
+sich Paare zusammengehörender (lat, long) Daten samllen lassen.
+
+## Im Verzeichnis CSV-Data
+
+Dort liegen rohe Daten im CSV-Format, aus denen sich Teildaten mit einfacheren
+Werkzeugen extrahieren lassen. So wurde etwa die uns interessierenden
+Datensätze (gleich Zeilen einer CSV-Datei) für Sachsen und Leipzig mit einem
+einfachen "grep" aus den verfügbaren größeren Datenbeständen extrahiert. 

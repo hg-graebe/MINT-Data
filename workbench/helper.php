@@ -121,9 +121,10 @@ function createAddress($strasse,$nr,$plz,$ort) {
   if (empty($ort)) return;
   $strasse=str_replace("str.","strasse",$strasse);
   $strasse=str_replace("Str.","Strasse",$strasse);
-  $uri=$plz.".".$ort.".".$strasse.".".$nr;
+  $uri="0$plz".'.'.$ort.".".$strasse.".".$nr;
   // mache eine Reihe sinnvoller Ersetzungen
-  $uri=preg_replace(array("/\s+/"),array(""),$uri);
+  $uri=preg_replace("/\s+/","",$uri);
+  $uri=preg_replace('/(\d+)\./','.${1}',$uri);
   $uri=fixURI($uri);
   return "http://leipzig-data.de/Data/".$uri;
 }
@@ -137,4 +138,15 @@ function proposeAddressURI($s) {
     $out=fixURI("$plz.$stadt.$strasse");
     $out=str_replace("01455","04155",$out);
     return $out;
+}
+
+function proposeURI($s) {
+    if (empty($s)) { return ; }
+    $s=preg_replace("/\s+/","",$s);
+    $s=preg_replace("/-/","",$s);
+    $s=preg_replace("/OberschulederStadt/","",$s);
+    $s=preg_replace("/,GymnasiumderStadt/","",$s);
+    $s=preg_replace("/,BeruflichesSchulzentrumderStadt/","",$s);
+    $s=preg_replace("/,GrundschulederStadt/","",$s);
+    return fixURI($s);
 }

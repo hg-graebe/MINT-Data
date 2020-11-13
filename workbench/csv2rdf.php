@@ -59,36 +59,27 @@ function postProcess($string,$feldnamen) {
 
 /* Spezifische Transformationsfunktionen */
 
-function fixHortURI($s) {
-    $s=fixURI($s);
-    $s=str_replace("Hortander", "", $s);
-    $s=str_replace("Hortinder", "", $s);
-    $s=str_replace("Hortder", "", $s);
-    $s=str_replace("Hort", "", $s);
-    return $s;
-}
-
-function createHorte($subject,$data) { // subject is not used
-    $a=array(); // Name|Adresse|PLZ|Ort|Anrede|Leitung|Email|Telefon
+function createMSS($subject,$data) { // subject is not used
+    $a=array(); // Name|Straße|PLZ|Ort|MINT
     $name=$data[0];
     $adresse=createAddress($data[1],"",$data[2],$data[3]);
-    $adresse=preg_replace("/(\d+).$/",".$1",$adresse);
-    $id=fixHortURI($name);
+    //$adresse=preg_replace("/(\d+).$/",".$1",$adresse);
+    $id=proposeURI($name);
+    $meriten=str_replace(',','","',$data[5]);
     $a=addLiteral($a,"rdfs:label",$name);
-    $a=addResource($a,"ld:hasAddress","",$adresse);
-    $a=addLiteral($a,"foaf:mbox",trim($data[6]));
-    $a=addLiteral($a,"foaf:phone",fixPhone($data[7]));
-    $a=addLiteral($a,"dct:modified","2018-08-04");
+    $a=addLiteral($a,"ld:Adresse","$data[1], 0$data[2] $data[3]");
+    $a=addResource($a,"ld:hasAdress","",$adresse);
+    $a=addLiteral($a,"ld:MINTSchulen",$meriten);
+    $a=addLiteral($a,"dct:modified",$data[9]);
     return 
-        "<http://leipzig-data.de/Data/Hort/$id> a ld:Hort;\n\t"
+        "<http://leipzig-data.de/Data/Schule/$id> a ld:Schule;\n\t"
         .join(";\n\t",$a).".\n\n";
 }
 
 // ---- Transformationen ----
 
 function processData() {
-  $datadir="/home/graebe/git/LD/MINT-Data/workbench";
-  $out=readCSV("$datadir/MINTSchulen-Sachsen.csv","createGenericRDF","",",");
+  $out=readCSV("MINTSchulen-Sachsen.csv","createMSS","",",");
   return $out;
 }
 
