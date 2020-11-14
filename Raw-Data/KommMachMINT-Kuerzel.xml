@@ -1,0 +1,285 @@
+<?xml version="1.0"?>
+<main>
+  <div class="form-element-radio">
+    <div>MINT-Bereich</div>
+    <label for="id_7899">Mathematik</label>
+    <label for="id_7900">Informatik</label>
+    <label for="id_7901">Naturwissenschaften</label>
+    <label for="id_7902">Technik</label>
+  </div>
+  <div class="form-element-select">
+    <label for="map-filter-project-type">
+      <span class="toplabel">Art des Projektes</span>
+    </label>
+    <select id="map-filter-project-type" name="project_type" size="1" tabindex="1">
+      <option value="">bitte ausw&#xE4;hlen</option>
+      <option value="7866">Ausstellungen</option>
+      <option value="7867">Berufsorientierung</option>
+      <option value="7868">Ferienangebote und Camps</option>
+      <option value="7869">Informationsangebote</option>
+      <option value="7870">Karriereangebote</option>
+      <option value="7871">Mentoring</option>
+      <option value="7872">Messen</option>
+      <option value="7873">Netzwerke</option>
+      <option value="7874">Sch&#xFC;ler/innenlabore und Werkst&#xE4;tten</option>
+      <option value="7875">Schulprojekt</option>
+      <option value="7876">Stipendien</option>
+      <option value="7877">Studienorientierung</option>
+      <option value="7878">Treffs</option>
+      <option value="7879">Wettbewerbe</option>
+      <option value="7880">Wiedereinstiegsangebote</option>
+      <option value="7881">Workshops und Vortr&#xE4;ge</option>
+    </select>
+  </div>
+  <div class="form-element-select">
+    <label for="map-filter-institution-type">
+      <span class="toplabel">Institutions-Typ</span>
+    </label>
+    <select id="map-filter-institution-type" name="institution" size="1" tabindex="2">
+      <option value="">bitte ausw&#xE4;hlen</option>
+      <option value="7882">Au&#xDF;erschulische Lernorte</option>
+      <option value="7883">Beh&#xF6;rden</option>
+      <option value="7884">Forschungseinrichtungen</option>
+      <option value="7885">Hochschulen</option>
+      <option value="7886">Museen</option>
+      <option value="7887">Stiftungen</option>
+      <option value="7888">Unternehmen</option>
+      <option value="7889">Vereine und Verb&#xE4;nde</option>
+    </select>
+  </div>
+  <div class="form-element-select">
+    <label for="map-filter-audience">
+      <span class="toplabel">Zielgruppe</span>
+    </label>
+    <select id="map-filter-audience" name="audience" size="1" tabindex="3">
+      <option value="">bitte ausw&#xE4;hlen</option>
+      <option value="7890">Akademiker/innen</option>
+      <option value="7891">Auszubildende</option>
+      <option value="7892">Berufseinsteiger/innen</option>
+      <option value="7896">Berufst&#xE4;tige</option>
+      <option value="7893">Eltern</option>
+      <option value="7894">Engagierte</option>
+      <option value="7895">Lehrkr&#xE4;fte</option>
+      <option value="7897">Sch&#xFC;ler/innen</option>
+      <option value="7898">Student/innen</option>
+    </select>
+  </div>
+  <div class="form-element-select">
+    <label for="map-filter-city_id">
+      <span class="toplabel">Ort</span>
+    </label>
+    <select id="map-filter-city_id" name="city_id" size="1" tabindex="5">
+      <option value="">bitte ausw&#xE4;hlen</option>
+      <option data-bland="80" value="8098">,</option>
+      <option data-bland="80" value="8072">90403 N&#xFC;rnberg</option>
+      <option data-bland="79" value="7942">Aachen</option>
+      <option data-bland="10" value="10686">Aalen</option>
+      <option data-bland="80" value="8017">Amberg</option>
+      <option data-bland="79" value="7914">Annaberg-Buchholz</option>
+      <option data-bland="79" value="7990">Augsburg</option>
+      <option data-bland="80" value="8003">Backnang</option>
+      <option data-bland="80" value="8061">Bad Bocklet</option>
+      <option data-bland="79" value="7993">Bad Honnef</option>
+      <option data-bland="80" value="8099">Balingen</option>
+      <option data-bland="79" value="7928">Bamberg</option>
+      <option data-bland="79" value="7947">Bayreuth</option>
+      <option data-bland="80" value="8006">Beckum</option>
+      <option data-bland="80" value="8002">Beilstein</option>
+      <option data-bland="79" value="7963">Bensheim</option>
+      <option data-bland="79" value="7903">Berlin</option>
+      <option data-bland="79" value="7926">Beverungen</option>
+      <option data-bland="79" value="7981">Bielefeld</option>
+      <option data-bland="80" value="8071">Bingen</option>
+      <option data-bland="79" value="7962">Bingen am Rhein</option>
+      <option data-bland="80" value="8066">Blomberg</option>
+      <option data-bland="79" value="7998">Bochum</option>
+      <option data-bland="81" value="8103">Bonlanden</option>
+      <option data-bland="79" value="7921">Bonn</option>
+      <option data-bland="80" value="8080">Borken</option>
+      <option data-bland="80" value="8032">Bornheim</option>
+      <option data-bland="80" value="8092">Bottrop</option>
+      <option data-bland="79" value="7954">Braunschweig</option>
+      <option data-bland="79" value="7941">Bremen</option>
+      <option data-bland="79" value="7960">Bremerhaven</option>
+      <option data-bland="80" value="8091">Buchholz</option>
+      <option data-bland="80" value="8045">Castrop-Rauxel</option>
+      <option data-bland="79" value="7987">Chemnitz</option>
+      <option data-bland="79" value="7916">Clausthal-Zellerfeld</option>
+      <option data-bland="79" value="7924">Coburg</option>
+      <option data-bland="79" value="7907">Cottbus</option>
+      <option data-bland="80" value="8010">D&#xE4;nischenhagen</option>
+      <option data-bland="79" value="7940">Darmstadt</option>
+      <option data-bland="80" value="8033">Deggendorf</option>
+      <option data-bland="11" value="11094">Deutschland, alle Bundesl&#xE4;nder</option>
+      <option data-bland="80" value="8028">Ditzingen</option>
+      <option data-bland="79" value="7906">Dortmund</option>
+      <option data-bland="79" value="7950">Dresden</option>
+      <option data-bland="10" value="10945">Duderstadt</option>
+      <option data-bland="79" value="7946">Duisburg</option>
+      <option data-bland="79" value="7958">D&#xFC;sseldorf</option>
+      <option data-bland="79" value="7991">Eggenstein-Leopoldshafen</option>
+      <option data-bland="79" value="7966">Ehningen</option>
+      <option data-bland="79" value="7989">Elsfleth</option>
+      <option data-bland="79" value="7969">Emden</option>
+      <option data-bland="80" value="8074">Emmendingen</option>
+      <option data-bland="80" value="8024">Erfurt</option>
+      <option data-bland="79" value="7920">Erlangen</option>
+      <option data-bland="79" value="7979">Essen</option>
+      <option data-bland="79" value="7982">Esslingen am Neckar</option>
+      <option data-bland="10" value="10592">Experimenta-Platz</option>
+      <option data-bland="79" value="7965">Feldafing</option>
+      <option data-bland="80" value="8077">Felsberg</option>
+      <option data-bland="79" value="7952">Flensburg</option>
+      <option data-bland="80" value="8095">Frankfurt</option>
+      <option data-bland="79" value="7925">Frankfurt am Main</option>
+      <option data-bland="80" value="8062">Frechen</option>
+      <option data-bland="80" value="8050">Freiberg</option>
+      <option data-bland="81" value="8101">Freiburg</option>
+      <option data-bland="80" value="8014">Freiburg im Breisgau</option>
+      <option data-bland="80" value="8083">Frielendorf</option>
+      <option data-bland="80" value="8082">Fritzlar</option>
+      <option data-bland="80" value="8065">Fr&#xF6;ndenberg/Ruhr</option>
+      <option data-bland="80" value="8094">Fulda</option>
+      <option data-bland="80" value="8034">Garbsen</option>
+      <option data-bland="80" value="8015">Garching</option>
+      <option data-bland="80" value="8031">Garching bei M&#xFC;nchen</option>
+      <option data-bland="80" value="8044">Geesthacht</option>
+      <option data-bland="79" value="7961">Gelsenkirchen</option>
+      <option data-bland="80" value="8013">Gie&#xDF;en</option>
+      <option data-bland="79" value="7922">Gl&#xFC;cksburg</option>
+      <option data-bland="79" value="7983">G&#xF6;ppingen</option>
+      <option data-bland="79" value="7919">G&#xF6;ttingen</option>
+      <option data-bland="79" value="7967">Greifswald</option>
+      <option data-bland="80" value="8038">Grevenbroich</option>
+      <option data-bland="80" value="8078">Gudensberg</option>
+      <option data-bland="80" value="8001">G&#xFC;tersloh</option>
+      <option data-bland="80" value="8059">Hagen</option>
+      <option data-bland="80" value="8087">Halle</option>
+      <option data-bland="80" value="8052">Halle (Saale)</option>
+      <option data-bland="79" value="7917">Hamburg</option>
+      <option data-bland="79" value="7908">Hannover</option>
+      <option data-bland="79" value="7955">Hardthausen am Kocher</option>
+      <option data-bland="80" value="8025">Heide</option>
+      <option data-bland="79" value="7972">Heidelberg</option>
+      <option data-bland="79" value="7936">Heidenheim an der Brenz</option>
+      <option data-bland="79" value="7964">Heilbronn</option>
+      <option data-bland="79" value="7949">Heroldsberg</option>
+      <option data-bland="80" value="8056">Hildesheim</option>
+      <option data-bland="79" value="7938">Hille</option>
+      <option data-bland="80" value="8075">H&#xF6;hr-Grenzhausen</option>
+      <option data-bland="80" value="8079">Homberg/Efze</option>
+      <option data-bland="80" value="8016">Ilmenau</option>
+      <option data-bland="80" value="8018">Ingolstadt</option>
+      <option data-bland="80" value="8058">Iserlohn</option>
+      <option data-bland="79" value="7995">Jena</option>
+      <option data-bland="80" value="8051">J&#xFC;lich</option>
+      <option data-bland="79" value="7910">Kaiserslautern</option>
+      <option data-bland="79" value="7927">Karlsruhe</option>
+      <option data-bland="80" value="8035">Kassel</option>
+      <option data-bland="80" value="8000">Kiel</option>
+      <option data-bland="80" value="8089">Kleve</option>
+      <option data-bland="79" value="7909">Koblenz</option>
+      <option data-bland="79" value="7937">K&#xF6;ln</option>
+      <option data-bland="79" value="7996">Konstanz</option>
+      <option data-bland="80" value="8011">K&#xF6;then (Anhalt)</option>
+      <option data-bland="80" value="8088">K&#xF6;then/Anhalt</option>
+      <option data-bland="80" value="8020">Krefeld</option>
+      <option data-bland="80" value="8086">Kronberg im Taunus</option>
+      <option data-bland="81" value="8104">K&#xFC;nzelsau</option>
+      <option data-bland="10" value="10636">Ladenburg</option>
+      <option data-bland="79" value="7930">Landshut</option>
+      <option data-bland="79" value="7970">Leipzig</option>
+      <option data-bland="80" value="8049">Lemgo</option>
+      <option data-bland="79" value="7933">Leverkusen</option>
+      <option data-bland="80" value="8027">Lingen</option>
+      <option data-bland="81" value="8102">L&#xF6;rrach</option>
+      <option data-bland="79" value="7997">L&#xFC;beck</option>
+      <option data-bland="80" value="8040">L&#xFC;denscheid</option>
+      <option data-bland="80" value="8076">Ludwigshafen</option>
+      <option data-bland="79" value="7971">L&#xFC;neburg</option>
+      <option data-bland="79" value="7992">Magdeburg</option>
+      <option data-bland="79" value="7911">Mainz</option>
+      <option data-bland="79" value="7918">Mannheim</option>
+      <option data-bland="80" value="8022">Marburg</option>
+      <option data-bland="80" value="8068">Marl</option>
+      <option data-bland="80" value="8026">Meldorf</option>
+      <option data-bland="80" value="8081">Melsungen</option>
+      <option data-bland="10" value="10685">Menden</option>
+      <option data-bland="79" value="7934">Merseburg</option>
+      <option data-bland="80" value="8060">Meschede</option>
+      <option data-bland="79" value="7932">Monheim am Rhein</option>
+      <option data-bland="80" value="8067">M&#xFC;lheim</option>
+      <option data-bland="79" value="7945">M&#xFC;lheim an der Ruhr</option>
+      <option data-bland="79" value="7904">M&#xFC;nchen</option>
+      <option data-bland="79" value="7923">M&#xFC;nster</option>
+      <option data-bland="80" value="8085">Neu Poserin/ OT Wooster Teerofen</option>
+      <option data-bland="79" value="7999">Neuss</option>
+      <option data-bland="79" value="7957">Neustrelitz</option>
+      <option data-bland="80" value="8029">Nordhorn</option>
+      <option data-bland="79" value="7905">N&#xFC;rnberg</option>
+      <option data-bland="79" value="7978">Oberhausen</option>
+      <option data-bland="79" value="7984">Offenburg</option>
+      <option data-bland="79" value="7943">Oldenburg</option>
+      <option data-bland="80" value="8021">Osnabr&#xFC;ck</option>
+      <option data-bland="80" value="8064">Ostenfeld (Husum)</option>
+      <option data-bland="79" value="7973">Paderborn</option>
+      <option data-bland="79" value="7977">Passau</option>
+      <option data-bland="80" value="8041">Peenem&#xFC;nde</option>
+      <option data-bland="80" value="8090">Pfarrkirchen</option>
+      <option data-bland="80" value="8055">Pforzheim</option>
+      <option data-bland="79" value="7980">Potsdam</option>
+      <option data-bland="79" value="7939">Regen</option>
+      <option data-bland="79" value="7951">Regensburg</option>
+      <option data-bland="79" value="7913">Remagen</option>
+      <option data-bland="79" value="7985">Reutlingen</option>
+      <option data-bland="80" value="8046">Rheinbach</option>
+      <option data-bland="80" value="8008">Rietberg</option>
+      <option data-bland="80" value="8057">Rinteln</option>
+      <option data-bland="79" value="7931">Rosenheim</option>
+      <option data-bland="79" value="7974">Rostock</option>
+      <option data-bland="81" value="8100">R&#xFC;sselsheim</option>
+      <option data-bland="79" value="7915">Saarbr&#xFC;cken</option>
+      <option data-bland="80" value="8004">Sachsenheim</option>
+      <option data-bland="80" value="8042">Sankt Augustin</option>
+      <option data-bland="80" value="8093">Sankt Sebastian</option>
+      <option data-bland="80" value="8084">Schorndorf</option>
+      <option data-bland="80" value="8063">Schw&#xE4;bisch Gm&#xFC;nd</option>
+      <option data-bland="80" value="8036">Schweinfurt</option>
+      <option data-bland="79" value="7956">Seefeld</option>
+      <option data-bland="80" value="8043">Senftenberg</option>
+      <option data-bland="79" value="7976">Siegen</option>
+      <option data-bland="80" value="8097">Sinsheim-Steinsfurt</option>
+      <option data-bland="80" value="8007">Soest</option>
+      <option data-bland="80" value="8053">Spaichingen</option>
+      <option data-bland="79" value="7953">Steinfurt</option>
+      <option data-bland="79" value="7935">Stuttgart</option>
+      <option data-bland="80" value="8069">Suhlendorf</option>
+      <option data-bland="79" value="7975">S&#xFC;lfeld</option>
+      <option data-bland="80" value="8039">Teningen</option>
+      <option data-bland="80" value="8009">Traunreut</option>
+      <option data-bland="10" value="10979">Traunreut / Chiemgau</option>
+      <option data-bland="10" value="10946">Traunreut/Chiemgau</option>
+      <option data-bland="79" value="7912">Trier</option>
+      <option data-bland="79" value="7948">T&#xFC;bingen</option>
+      <option data-bland="80" value="8037">Tuttlingen</option>
+      <option data-bland="79" value="7959">Ulm</option>
+      <option data-bland="80" value="8005">Unna</option>
+      <option data-bland="79" value="7929">Verden (Aller)</option>
+      <option data-bland="80" value="8030">Verl</option>
+      <option data-bland="79" value="7986">Villingen-Schwenningen</option>
+      <option data-bland="80" value="8073">Weiden in der Oberpfalz</option>
+      <option data-bland="80" value="8047">Weimar</option>
+      <option data-bland="80" value="8012">Wetzlar</option>
+      <option data-bland="80" value="8096">Wiesbaden</option>
+      <option data-bland="80" value="8019">Wiesloch</option>
+      <option data-bland="79" value="7968">Wildau</option>
+      <option data-bland="79" value="7988">Wilhelmshaven</option>
+      <option data-bland="80" value="8054">Wismar</option>
+      <option data-bland="80" value="8070">Worms</option>
+      <option data-bland="79" value="7994">Wuppertal</option>
+      <option data-bland="79" value="7944">W&#xFC;rzburg</option>
+      <option data-bland="80" value="8048">Zweibr&#xFC;cken</option>
+      <option data-bland="80" value="8023">Zwickau</option>
+    </select>
+  </div>
+</main>

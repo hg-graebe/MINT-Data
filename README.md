@@ -64,6 +64,26 @@ Werkzeugen extrahieren lassen. So wurde etwa die uns interessierenden
 Datensätze (gleich Zeilen einer CSV-Datei) für Sachsen und Leipzig mit einem
 einfachen "grep" aus den verfügbaren größeren Datenbeständen extrahiert. 
 
+### Übersicht der Mint-freundlichen Schulen usw.
+
+Quelle: Google-Doc-Dokument
+
+* AlleAusgezeichnetenSchulen-2020.csv
+* MINTFreundlicheSchulen-2020.csv
+* DigitaleSchulen-2020.csv
+* MINTSchulen-Sachsen.csv
+
+## Verzeichnis Raw-Data
+
+Dort liegen rohe Daten in validem XML-Format, die weiterer Verarbeitung
+harren.
+
+* Komm mach MINT. Von der Webseite
+  <https://www.komm-mach-mint.de/schuelerinnen/mint-karte#liste> am 14.11.2020
+  gescrapt und in zwei Dateien valides xml verwandelt:
+  * KommMachMINT-Kuerzel.xml - Tabelle der Orte und weitere Kürzel
+  * KommMachMINT-Tabelle.xml - Tabelle der Angebote
+
 ## Verzeichnis web
 
 Der Quellcode einer prototypischen Website, auf der - als proof of concept -
