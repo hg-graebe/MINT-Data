@@ -49,7 +49,7 @@ function pageNavbar() {
 function generalContent() {
   return '
 <div class="container">
-  <h1 align="center">Demonstations-Site des MINT-Data Projekts</h1>
+  <h1 align="center">Demonstrations-Site des MINT-Data Projekts</h1>
 </div>
 ';
 }
