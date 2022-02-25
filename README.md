@@ -64,7 +64,10 @@ Werkzeugen extrahieren lassen. So wurde etwa die uns interessierenden
 Datensätze (gleich Zeilen einer CSV-Datei) für Sachsen und Leipzig mit einem
 einfachen "grep" aus den verfügbaren größeren Datenbeständen extrahiert. 
 
-### Übersicht der Mint-freundlichen Schulen usw.
+Porsinger.*.csv sind aus dem privaten MINT Mattermost Kanal von Winfried
+Porsinger.
+
+### Übersicht der MINT-freundlichen Schulen usw.
 
 Quelle: Google-Doc-Dokument
 
